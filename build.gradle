@@ -1,0 +1,21 @@
+group 'me.dlkanth'
+version '1.0'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile localGroovy()
+    compile gradleApi()
+    compile group: 'com.asana', name: 'asana', version: '0.5.0'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
