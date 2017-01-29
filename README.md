@@ -23,7 +23,7 @@ buildscript {
 
 Create a `Personal Access Token` from Developer App Management 
 
-`(app.asana.com -> My Profile Settings -> Apps -> Manage Developer Apps -> Create a New Personal Access Token) `
+`(app.asana.com -> My Profile Settings -> Apps -> Manage Developer Apps -> Create a New Personal Access Token)`
  Copy the personal access token and add it in your gradle.properties or just paste it in your build.gradle
  
  And Also specify the name of your asana workspace in your build.gradle
