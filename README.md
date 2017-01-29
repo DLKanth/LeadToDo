@@ -19,7 +19,7 @@ buildscript {
 }
 ```
 
-# Managing your ToDo Comments Using [Asana]: https://asana.com/
+# Managing your ToDo Comments Using [Asana](https://asana.com/)
 
 Create a `Personal Access Token` from Developer App Management 
 
@@ -28,7 +28,7 @@ Create a `Personal Access Token` from Developer App Management
  
  And Also specify the name of your asana workspace in your build.gradle
  
- ## Add LeadTodo in your build.gradle
+Add LeadTodo in your build.gradle
  ```gradle
  leadTodo {
     accessToken 'PERSONAL_ACCESS_TOKEN_FROM_ASANA'
@@ -36,7 +36,7 @@ Create a `Personal Access Token` from Developer App Management
 } 
  ```
  
- ## Run LeadTodo
+ Run LeadTodo
  Run the `leadTodo` gradle task from terminal or gradle tools window
  ```gradle
  gradlew leadTodo
